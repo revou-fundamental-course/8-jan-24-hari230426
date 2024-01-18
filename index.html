@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Persegi Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Menghitung Luas Dan Keliling Persegi</h1>
+    </header>
+    <div class="container">
+        <img src="./assets/square.png" alt="" id="squareImage">
+        
+    </div>
+    <div class="item">  
+        <p>Design tipis tipis By Hafizh Rahman Ibrahim</p>
+        <label for="sideLength">Masukkan Panjang Sisi:</label>
+        <input type="number" id="sideLength" placeholder="Masukkan panjang sisi">
+        <button onclick="hitung()">Hitung</button>
+        <button onclick="reset()">Hapus</button>
+        <div id="result">
+            <p>Luas dengan rumus S x S = <span id="luas"></span></p>
+            <p>Keliling dengan rumus S x 4 = <span id="keliling"></span></p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
